@@ -1,0 +1,6 @@
+project: cryptsetup
+target: crypt2_load_fuzz
+cmds:
+  - cmd: /mayhem/crypt2_load_fuzz
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/crypt2_load_fuzz.dict
